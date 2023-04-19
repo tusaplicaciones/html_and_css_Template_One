@@ -58,6 +58,30 @@ main{
     color: #fff;
 
 }
+.linea{
+    
+        position: relative;
+        height: 320px;
+        width: 67px;
+        display: block;
+        text-align: center;
+        padding-top: 100px;
+        margin: 10px;
+        float: left;
+    }
+    .linea:before {
+        border-left: 1px solid #fff;
+        content: "";
+        display: block;
+        height: 300px;
+        left: 34px;
+        position: absolute;
+        top: 30px;
+        width: 1px;
+        z-index: 0;
+    }
+    
+
 /*-------------------------------*/
 .presentacion-item{
     text-align: center;
