@@ -10,17 +10,14 @@ var nav = document.querySelector("nav");
     nav.classList.remove("menu","shadow");
   }
 
+ 
 
-var typed = new typed('.type', {
-strings: ['مرحبا في موقع نصرو',
-         'تجربة في جافاسكريپت',],
+  const typed = new Typed('.typed', {
+    strings: ['.كل ما تحتاجه في ', 'HTML5-CSS3-JAVASCRIPT.'],
 
     typeSpeed: 200,
-
+  });
 
 
 });
-
-});
-
 

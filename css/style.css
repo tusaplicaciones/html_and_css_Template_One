@@ -42,6 +42,7 @@ main{
     background-color: rgb(000, 000, 000);
     opacity: 0.9;
     color:#e1e1e1;
+    position: relative;
     
 }
 
@@ -58,8 +59,34 @@ main{
     color: #fff;
 
 }
+.typed{color:#fff}
 
+.socialmedia{
+    position: absolute;
+    top:40%;
+    left:0;
+    text-align: center;
 
+}
+.socialmedia li{
+    display: block;
+    padding: 4px;
+    font-size: 20px;
+}
+.socialmedia ul li .fa-brands{
+    border: 1px solid #323338;
+    border-radius: 100%;
+    padding: 8px;
+    opacity: 0.5;
+    background-color: #323338;
+
+}
+.socialmedia ul li .fa-brands:hover{
+    background-color: #fff;
+    transition: 0.5s all;
+    opacity: 1;
+
+}
 /*-------------------------------*/
 .presentacion-item{
     text-align: center;
